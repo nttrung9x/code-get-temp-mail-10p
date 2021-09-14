@@ -1,3 +1,5 @@
+[CaptCha69.COM](https://captcha69.com/) 
+
 Temp-Mail-API
 [![AppVeyor](https://img.shields.io/appveyor/ci/RyuzakiH/Temp-Mail-API/master.svg?maxAge=60)](https://ci.appveyor.com/project/RyuzakiH/Temp-Mail-API)
 [![NuGet](https://img.shields.io/nuget/v/TempMail.API.svg?maxAge=60)](https://www.nuget.org/packages/TempMail.API)
@@ -108,12 +110,12 @@ Sometimes Cloudflare forces captcha challenges or Js challenge cannot be solved,
 
 ```csharp
 var client = TempMailClient.Create(
-    captchaProvider: new AntiCaptchaProvider("YOUR_API_KEY"));
+    captchaProvider: new AntiCaptchaProvider("CAPTCHA69_COM___API_KEY"));
 ```
 
 ```csharp
 var client = TempMailClient.Create(
-    captchaProvider: new TwoCaptchaProvider("YOUR_API_KEY"));
+    captchaProvider: new TwoCaptchaProvider("CAPTCHA69_COM___API_KEY"));
 ```
 
 _for more information read the documentation here [CloudflareSolverRe](https://github.com/RyuzakiH/CloudflareSolverRe)_
